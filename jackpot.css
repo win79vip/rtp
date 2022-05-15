@@ -1,0 +1,47 @@
+.slot-jackpot-container .progressive-jackpot {
+    height: 100%;
+}
+
+.progressive-jackpot {
+    background: center no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+}
+
+@media(max-width:992px) {
+    .progressive-jackpot {
+        background: center no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 70px;
+    }
+}
+
+.progressive-jackpot .jackpot-container{
+    font-family: 'Advanced Dot Digital-7', sans-serif;   
+    color: #fff;
+    font-size: 50px;
+    margin-left: 320px;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:992px) {
+    .progressive-jackpot .jackpot-container{
+        font-family: 'Advanced Dot Digital-7', sans-serif;   
+        color: #fff;
+        margin-left: 110px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.progressive-jackpot .jackpot-currency, .progressive-jackpot .jackpot-container {
+    color: #fff;
+}
